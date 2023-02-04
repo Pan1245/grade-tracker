@@ -1,17 +1,39 @@
 import * as React from "react";
-import { Container } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "../components/styles/styles.css";
+import { Button, Col, Container, Navbar, Row } from "react-bootstrap";
 import { useLocalStorage } from "react-use";
-import "../components/styles.css";
 
 function GradeTracker() {
   return (
-    <Container>
-      <h1>Grade Tracker</h1>
-      <p>By Siwach Toprasert</p>
-    </Container>
+    <>
+      <Navbar bg="dark">
+        <Navbar.Brand bsPrefix="navbar-title" href=".">
+          Grade Tracker
+        </Navbar.Brand>
+      </Navbar>
+      <Container fluid>
+        <Row className="major-title">
+          <Col className="text-center">
+            <p className="major-select">Select Your Major</p>
+          </Col>
+        </Row>
+        <Row>
+          <Col className="text-center">
+            <Button className="button-cs btn-block" variant="outline-dark">
+              Computer Science
+            </Button>{" "}
+            <Button className="button-it btn-block" variant="outline-dark">
+              {" "}
+              Information Technology
+            </Button>
+          </Col>
+        </Row>
+      </Container>
+    </>
   );
 }
 
-export default IndexPage;
+export default GradeTracker;
 
 export const Head = () => <title>Grade Tracker</title>;
