@@ -1,17 +1,13 @@
 import * as React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../components/styles/styles.css";
-import { Button, Col, Container, Navbar, Row } from "react-bootstrap";
+import "../components/styles.css";
+import Layout from "../components/layout";
+import { Button, Col, Container, Row } from "react-bootstrap";
 import { useLocalStorage } from "react-use";
 
 function GradeTracker() {
   return (
-    <>
-      <Navbar bg="dark">
-        <Navbar.Brand bsPrefix="navbar-title" href=".">
-          Grade Tracker
-        </Navbar.Brand>
-      </Navbar>
+    <Layout>
       <Container fluid>
         <Row className="major-title">
           <Col className="text-center">
@@ -30,7 +26,7 @@ function GradeTracker() {
           </Col>
         </Row>
       </Container>
-    </>
+    </Layout>
   );
 }
 
