@@ -3,7 +3,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../components/styles.css";
 import Layout from "../components/layout";
 import { Button, Col, Container, Row } from "react-bootstrap";
-import { useLocalStorage } from "react-use";
+import { Link } from "gatsby";
+
+export const Head = () => <title>Grade Tracker</title>;
 
 function GradeTracker() {
   return (
@@ -16,10 +18,18 @@ function GradeTracker() {
         </Row>
         <Row>
           <Col className="text-center">
-            <Button className="button-cs btn-block" variant="outline-dark">
+            <Button
+              className="btn-cs btn-block"
+              href="/cs"
+              variant="outline-dark"
+            >
               Computer Science
             </Button>{" "}
-            <Button className="button-it btn-block" variant="outline-dark">
+            <Button
+              className="btn-it btn-block"
+              href="/it"
+              variant="outline-dark"
+            >
               {" "}
               Information Technology
             </Button>
@@ -31,5 +41,3 @@ function GradeTracker() {
 }
 
 export default GradeTracker;
-
-export const Head = () => <title>Grade Tracker</title>;

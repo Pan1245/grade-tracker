@@ -4,9 +4,10 @@ import Footer from "./footer";
 import styled from "styled-components";
 
 const LayoutStyles = styled.div`
-  min-height: 100vh;
+  background-color: aliceblue;
   display: grid;
   grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
 `;
 
 export default function Layout({ children }) {

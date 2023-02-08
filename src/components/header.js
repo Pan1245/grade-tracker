@@ -1,12 +1,11 @@
 import * as React from "react";
 import { Navbar } from "react-bootstrap";
-import styled from "styled-components";
 
 export default function Header() {
   return (
     <header>
       <Navbar bg="dark" variant="dark">
-        <Navbar.Brand bsPrefix="navbar-title" href=".">
+        <Navbar.Brand bsPrefix="navbar-title" href="../">
           Grade Tracker
         </Navbar.Brand>
       </Navbar>

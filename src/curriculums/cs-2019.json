@@ -1,7 +1,7 @@
 {
   "curriculum": {
-    "name": "Computer Science",
-    "subjects": [
+    "major": "Computer Science",
+    "courses": [
       {
         "groupName": "Language Courses",
         "subjects": [
@@ -183,24 +183,36 @@
         "groupName": "Core Courses",
         "subjects": [
           {
-            "code": "ITX 2002",
+            "code": "CSX 2002",
             "name": "Calculus"
           },
           {
-            "code": "ITX 2003",
+            "code": "CSX 2003",
             "name": "Principles of Statistics"
           },
           {
-            "code": "ITX 2005",
+            "code": "CSX 2004",
+            "name": "UI/UX Design and Prototyping"
+          },
+          {
+            "code": "CSX 2005",
             "name": "Design Thinking"
           },
           {
-            "code": "ITX 2006",
+            "code": "CSX 2006",
             "name": "Mathematics and Statistics for Data Science"
           },
           {
-            "code": "ITX 3002",
-            "name": "Introduction to Information Technology"
+            "code": "CSX 2007",
+            "name": "Data Science"
+          },
+          {
+            "code": "CSX 2008",
+            "name": "Mathematics Foundation for Computer Science"
+          },
+          {
+            "code": "CSX 2009",
+            "name": "Cloud Computing"
           }
         ]
       },
@@ -208,16 +220,8 @@
         "groupName": "Major Courses",
         "subjects": [
           {
-            "code": "ITX 3003",
-            "name": "Business Systems"
-          },
-          {
-            "code": "ITX 3004",
-            "name": "Information System Analysis and Design"
-          },
-          {
-            "code": "ITX 3008",
-            "name": "IT Project Management"
+            "code": "CSX 2001",
+            "name": "Introduction to Information Technology"
           }
         ]
       },
@@ -225,27 +229,11 @@
         "groupName": "Applications Technology Group",
         "subjects": [
           {
-            "code": "ITX 2004",
-            "name": "UI/UX Design and Prototyping"
-          },
-          {
-            "code": "ITX 2007",
-            "name": "Data Science"
-          },
-          {
-            "code": "ITX 2009",
-            "name": "Presentation and Data Visualization Techniques"
-          },
-          {
-            "code": "ITX 3006",
-            "name": "Database Management Systems"
-          },
-          {
-            "code": "ITX 3009",
+            "code": "CSX 3010",
             "name": "Senior Project 1"
           },
           {
-            "code": "ITX 3010",
+            "code": "CSX 3011",
             "name": "Senior Project 2"
           }
         ]
@@ -254,20 +242,24 @@
         "groupName": "Technology and Software Methods Group",
         "subjects": [
           {
-            "code": "ITX 2001",
-            "name": "Object-Oriented Concepts and Programming"
-          },
-          {
-            "code": "ITX 2010",
-            "name": "Data Structure and Algorithms"
-          },
-          {
-            "code": "ITX 3001",
+            "code": "CSX 3001",
             "name": "Fundamentals of Computer Programming"
           },
           {
-            "code": "ITX 3007",
-            "name": "Software Engineering"
+            "code": "CSX 3002",
+            "name": "Object-Oriented Concepts and Programming"
+          },
+          {
+            "code": "CSX 3003",
+            "name": "Data Structure and Algorithms"
+          },
+          {
+            "code": "CSX 3004",
+            "name": "Programming Languages"
+          },
+          {
+            "code": "CSX 3009",
+            "name": "Algorithm Design"
           }
         ]
       },
@@ -275,12 +267,25 @@
         "groupName": "System Infrastructure Group",
         "subjects": [
           {
-            "code": "ITX 2008",
-            "name": "Cloud Computing"
+            "code": "CSX 3005",
+            "name": "Computer Networks"
           },
           {
-            "code": "ITX 3005",
-            "name": "Computer Networks"
+            "code": "CSX 3006",
+            "name": "Database Systems"
+          },
+          {
+            "code": "CSX 3008",
+            "name": "Operating Systems"
+          }
+        ]
+      },
+      {
+        "groupName": "Hardware and Computer Architecture Group",
+        "subjects": [
+          {
+            "code": "CSX 3007",
+            "name": "Computer Architecture"
           }
         ]
       },
@@ -288,27 +293,39 @@
         "groupName": "Major Elective Course Group 1(A): Software Engineering and Development",
         "subjects": [
           {
-            "code": "ITX 4103",
+            "code": "CSX 4101",
+            "name": "Information System Analysis and Design"
+          },
+          {
+            "code": "CSX 4102",
+            "name": "Software Engineering"
+          },
+          {
+            "code": "CSX 4103",
             "name": "Requirement Engineering"
           },
           {
-            "code": "ITX 4104",
+            "code": "CSX 4104",
             "name": "Software Testing"
           },
           {
-            "code": "ITX 4106",
+            "code": "CSX 4105",
+            "name": "IT Project Management"
+          },
+          {
+            "code": "CSX 4106",
             "name": "Enterprise Architecture"
           },
           {
-            "code": "ITX 4107",
+            "code": "CSX 4107",
             "name": "Web Application Development"
           },
           {
-            "code": "ITX 4108",
+            "code": "CSX 4108",
             "name": "iOS Application Development"
           },
           {
-            "code": "ITX 4109",
+            "code": "CSX 4109",
             "name": "Android Application Development"
           }
         ]
@@ -317,43 +334,43 @@
         "groupName": "Major Elective Course Group 1(B): Informatics and Data Science",
         "subjects": [
           {
-            "code": "ITX 4201",
+            "code": "CSX 4201",
             "name": "Artificial Intelligence Concepts"
           },
           {
-            "code": "ITX 4202",
+            "code": "CSX 4202",
             "name": "Data Mining"
           },
           {
-            "code": "ITX 4203",
+            "code": "CSX 4203",
             "name": "Machine Learning"
           },
           {
-            "code": "ITX 4204",
+            "code": "CSX 4204",
             "name": "Biometrics"
           },
           {
-            "code": "ITX 4205",
+            "code": "CSX 4205",
             "name": "Big Data Analytics"
           },
           {
-            "code": "ITX 4206",
+            "code": "CSX 4206",
             "name": "Data Warehousing and Business Intelligence"
           },
           {
-            "code": "ITX 4207",
+            "code": "CSX 4207",
             "name": "Decision Support and Recommender Systems"
           },
           {
-            "code": "ITX 4208",
+            "code": "CSX 4208",
             "name": "Deep Learning"
           },
           {
-            "code": "ITX 4209",
+            "code": "CSX 4209",
             "name": "Intelligent System Development"
           },
           {
-            "code": "ITX 4210",
+            "code": "CSX 4210",
             "name": "Natural Language Processing and Social Interactions"
           }
         ]
@@ -362,31 +379,31 @@
         "groupName": "Major Elective Course Group 1(C): Network Technology and Infrastructure",
         "subjects": [
           {
-            "code": "ITX 4301",
+            "code": "CSX 4301",
             "name": "Network Design"
           },
           {
-            "code": "ITX 4302",
+            "code": "CSX 4302",
             "name": "Cisco Networking Workshop"
           },
           {
-            "code": "ITX 4303",
+            "code": "CSX 4303",
             "name": "Network Security"
           },
           {
-            "code": "ITX 4304",
+            "code": "CSX 4304",
             "name": "Network Management"
           },
           {
-            "code": "ITX 4305",
+            "code": "CSX 4305",
             "name": "Heterogeneous Wireless Networks"
           },
           {
-            "code": "ITX 4306",
+            "code": "CSX 4306",
             "name": "Internet of Things"
           },
           {
-            "code": "ITX 4307",
+            "code": "CSX 4307",
             "name": "Business Continuity Planning and Management"
           }
         ]
@@ -395,35 +412,39 @@
         "groupName": "Major Elective Course Group 1(D): Enterprise Systems",
         "subjects": [
           {
-            "code": "ITX 4402",
+            "code": "CSX 4401",
+            "name": "Business Systems"
+          },
+          {
+            "code": "CSX 4402",
             "name": "Sales and Distribution Management System"
           },
           {
-            "code": "ITX 4403",
+            "code": "CSX 4403",
             "name": "Manufacturing Management System"
           },
           {
-            "code": "ITX 4404",
+            "code": "CSX 4404",
             "name": "Supply Chain Management System"
           },
           {
-            "code": "ITX 4405",
+            "code": "CSX 4405",
             "name": "Finance and Accounting Information System"
           },
           {
-            "code": "ITX 4406",
+            "code": "CSX 4406",
             "name": "Customer Relationship Management System"
           },
           {
-            "code": "ITX 4407",
+            "code": "CSX 4407",
             "name": "Enterprise Application Development"
           },
           {
-            "code": "ITX 4408",
+            "code": "CSX 4408",
             "name": "Enterprise Database System"
           },
           {
-            "code": "ITX 4409",
+            "code": "CSX 4409",
             "name": "Blockchain Technology"
           }
         ]
@@ -432,31 +453,35 @@
         "groupName": "Major Elective Course Group 2",
         "subjects": [
           {
-            "code": "ITX 4502",
+            "code": "CSX 4501",
+            "name": "Theory of Computation"
+          },
+          {
+            "code": "CSX 4502",
             "name": "Tech Startup"
           },
           {
-            "code": "ITX 4503",
+            "code": "CSX 4503",
             "name": "Information Systems Security"
           },
           {
-            "code": "ITX 4504",
+            "code": "CSX 4504",
             "name": "Digital Marketing"
           },
           {
-            "code": "ITX 4505",
+            "code": "CSX 4505",
             "name": "Digital Transformation"
           },
           {
-            "code": "ITX 4506",
+            "code": "CSX 4506",
             "name": "Image Processing"
           },
           {
-            "code": "ITX 4507",
+            "code": "CSX 4507",
             "name": "Information Retrieval and Search Engines"
           },
           {
-            "code": "ITX 4508",
+            "code": "CSX 4508",
             "name": "Quantitative Research for Digital Business"
           }
         ]
