@@ -1,13 +1,18 @@
 
 # Grade Tracker
 
-Grade Tracking Gatsby Web Application using localStorage without backend.
-
-Grade Tracker allows the user to choose their major and create semesters with their grades. Grade Tracker automatically calculates the GPA and allows the user to calculate the cummulative GPA. The user can reset all their data if they need to.
-
+Grade Tracking is the first project of CSX4107 Web Application Development. Grade Tracking is a web application developed using React Gatsby without any backend with the help of react-use localStorage.
 ## Authors
 
 - [Siwach Toprasert 6316801](https://github.com/Pan1245/)
+
+
+## Features
+
+- Choose major
+- Add Subject to the Semester
+- Calculate GPA
+- Calculate Cummulative GPA
 
 
 ## Screenshots
@@ -17,4 +22,11 @@ Grade Tracker allows the user to choose their major and create semesters with th
 ![App Screenshot](https://github.com/Pan1245/grade-tracker/blob/main/grade-tracker-snapshots/CsPage.png?raw=true)
 
 ![App Screenshot](https://github.com/Pan1245/grade-tracker/blob/main/grade-tracker-snapshots/ItPage.png?raw=true)
+
+
+## Tech Stack
+
+**Client:** React Gatsby, Bootstrap
+
+**Server:** React-use localStorage
 
